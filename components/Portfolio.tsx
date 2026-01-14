@@ -33,7 +33,7 @@ const projects: Project[] = [
     description: 'Revolutionary social linking application with AI-driven connection recommendations.',
     link: 'https://soulinkapp.com',
     type: 'video',
-    media: '/videos/soulink.mp4', // You'll need to add your video file
+    media: '/videos/Soulink.mp4',
     tags: ['Social', 'AI', 'Networking'],
     featured: true,
   },
@@ -51,9 +51,9 @@ const projects: Project[] = [
     id: 4,
     title: 'Enterprise CRM System',
     description: 'Comprehensive CRM with AI-powered insights, automation, and customer intelligence.',
-    link: 'https://medicare.elite-calls.com', // Replace with your actual CRM link
+    link: 'https://medicare.elite-calls.com',
     type: 'image',
-    media: '/images/crm.jpg', // You'll need to add your image file
+    media: '/images/Crm.jpg',
     tags: ['CRM', 'Automation', 'Analytics'],
   },
   {
