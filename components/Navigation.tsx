@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
+import Logo from './Logo'
 
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false)
@@ -25,7 +26,8 @@ export default function Navigation() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <Link href="/" className="flex items-center space-x-2 group">
+        <Link href="/" className="flex items-center space-x-3 group">
+          <Logo className="w-10 h-10 transition-transform group-hover:scale-110" />
           <span className="text-2xl font-bold font-mono text-gradient tracking-tight transition-all group-hover:tracking-wide">
             ASIF<span className="text-neural-cyan" style={{ textShadow: '0 0 20px rgba(0, 217, 255, 0.8)' }}>AI</span>
           </span>
