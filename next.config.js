@@ -2,10 +2,13 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  output: 'export',
+  basePath: '',
   images: {
     domains: [],
-    unoptimized: false,
+    unoptimized: true,
   },
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
