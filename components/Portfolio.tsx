@@ -28,16 +28,6 @@ const projects: Project[] = [
     featured: true,
   },
   {
-    id: 2,
-    title: 'SouLink App',
-    description: 'Revolutionary social linking application with AI-driven connection recommendations.',
-    link: 'https://soulinkapp.com',
-    type: 'video',
-    media: '/videos/Soulink.mp4',
-    tags: ['Social', 'AI', 'Networking'],
-    featured: true,
-  },
-  {
     id: 3,
     title: 'AI Twin',
     description: 'Intelligent AI persona that mirrors your communication style and can interact on your behalf.',
